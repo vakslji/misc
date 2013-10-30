@@ -1,0 +1,89 @@
+<!DOCtype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no;"/>
+	<title>Blog Wannabe</title>	
+	
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" media="screen, projection" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" media="screen and (min-width: 979px) and (max-width: 4096px)" href="css/desktop.css" />
+
+	<!-- Java Script -->
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/misc.js"></script>
+
+	<!-- Icon -->
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="/favicon.ico" type="image/ico" />
+
+	<!-- Conditional CSS -->
+	<!--[if IE 8]>
+	<link rel="stylesheet" type="text/css" href="css/ie8.css" media="screen" />
+	<![endif]-->
+	
+	<!--[if IE 9]>
+	<link rel="stylesheet" type="text/css" href="css/ie9.css" media="screen" />
+	<![endif]-->
+
+	<!--[if lt IE 9]>
+	<script src="js/html5.js"></script>
+	<![endif]-->		
+</head>
+<body>
+<div class="container">
+	<header>
+		<div class="within">
+			<h1>Blog Logo</h1>
+			<div class="siteSearch">
+				<div><p><input type="text" value="search term..." name="" /><input type="submit" name="" value="»" /></p></div>
+				<span class="searchExpander"></span>
+			</div><!-- /siteSearch -->
+			<span class="menuTrigger"></span>
+			<nav style="display:none;">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</div><!-- /within -->
+	</header>
+	<section>	
+		<div class="within">
+			<div class="content">
+				<article class="clearfix">
+					<h1>Vivamus sem lectus</h1>
+					<img class="articleImage" src="img/image.jpg" alt="" />
+					<p>Quisque eros mi, ullamcorper ac tincidunt at, viverra sed sem. Ut non sapien vitae justo scelerisque laoreet. Cras sed tempor sapien. Vestibulum ante ipsum primis in <span class="tt" title="Some additional info.">faucibus orci</span> luctus et ultrices posuere cubilia Curae. Fusce in cursus arcu. Mauris dictum massa id turpis accumsan, eget bibendum metus congue. Sed vel euismod enim. Maecenas id arcu eget nibh cursus luctus. Quisque elit eros, iaculis non tellus quis, sagittis blandit nisi. Quisque nibh est, rutrum ac eleifend a, mollis in quam. Sed vitae condimentum lectus, sed tristique urna. Nullam luctus felis a nunc ornare lacinia.</p>
+					<p>Sed eu blandit sapien. Nullam imperdiet, lectus vitae elementum commodo, augue erat eleifend tortor, at iaculis nunc libero ut leo. Aliquam posuere semper libero, vitae tincidunt tellus elementum at. Nulla id nibh nibh. Nulla pharetra tellus sed odio faucibus, sed convallis quam egestas. Integer vel nunc quis magna volutpat adipiscing. Nam luctus iaculis mi nec ullamcorper. Curabitur eu neque ut augue euismod aliquet in sed neque. Cras egestas lectus sodales semper interdum.</p>
+				</article>
+				<aside>
+					<div class="loginBox">
+						<h4>Login</h4>
+						<div>
+							<p class="txt"><input type="text" name="" value="e-mail" /></p>
+							<p class="pass"><input type="text" class="button" value="password" onclick="this.value='';this.onclick='test'; setAttribute('type', 'password');" onfocus="if (this.value == 'password') {this.value = ''; setAttribute('type', 'password');}"   onblur="if (this.value == '') {this.value = 'password';setAttribute('type', 'text');}" name="password"  /><p>
+							<p class="go"><input type="submit" name="" value="Submit" /></p>
+						</div>
+					</div><!-- /loginBox -->
+				</aside>
+			</div><!-- /content -->
+		</div><!-- /within -->
+	</section>
+	<footer>
+		<div class="within">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+			<p>All rights reserved | DummyBlog &copy;2013</p>
+		</div><!-- /within -->
+	</footer>
+</div><!-- /container -->
+</body>
+</html>

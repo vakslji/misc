@@ -1,0 +1,1 @@
+Just a (mobile first) dummy blog.
